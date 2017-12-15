@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 
 import { SearchGitRepoService } from './shared/search/search-git-repo.service';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 const appRoutes: Routes = [
@@ -19,7 +20,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    NavBarComponent
   ],
   imports: [
     HttpModule,

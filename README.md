@@ -2,12 +2,12 @@
 
 This project was generated with [Angular CLI].
 
-Check if you have Node.js installed, run this command in your terminal:
-node -v
-Check if you you have npm installed you can run this command in your terminal:
-npm -v
+Check if you have Node.js installed, run this command in your terminal: node -v
 
-install Node.js
+Check if you you have npm installed you can run this command in your terminal: npm -v
+
+Install Node.js
+
 npm install npm@latest -g
 
 git clone https://github.com/ItsNadeem/AngularDemoAPP.git

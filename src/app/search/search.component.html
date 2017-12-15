@@ -1,0 +1,31 @@
+<h3>Search Github by Username</h3>
+<div class="row">
+  <div class="col-md-12">
+    <form class="well">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Enter github username..."name="query" [(ngModel)]="query" (keyup.enter)="search()">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button" (click)="search()">Search</button>
+   </span>
+      </div>
+    </form>
+  </div>
+</div>
+<div *ngIf="flag">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{query}} github repository list</h3>
+    </div>
+    <div class="panel-body">
+      <div *ngFor="let repo of searchResults">
+        <div class="row">
+          <div class="col-md-12">
+            <h4><a target="_blank" href="{{repo.html_url}}">{{repo.name}}</a></h4>
+            <p>{{repo.description}}</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>

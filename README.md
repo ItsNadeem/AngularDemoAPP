@@ -1,14 +1,12 @@
 # DemoAngularAppUsingGithubApi
 
-This project was generated with [Angular CLI].
+This project is generated using Angular CLI.
 
-Check if you have Node.js installed, run this command in your terminal: node -v
+Check if you have Node.js installed:
+node -v
 
-Check if you you have npm installed you can run this command in your terminal: npm -v
-
-Install Node.js
-
-npm install npm@latest -g
+Check if you you have npm installed: 
+npm -v
 
 git clone https://github.com/ItsNadeem/AngularDemoAPP.git
 
@@ -17,9 +15,8 @@ git clone https://github.com/ItsNadeem/AngularDemoAPP.git
 npm install
 
 ## Development server
+Run `ng serve`. 
+Navigate to `http://localhost:4200/`. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
-
-## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
